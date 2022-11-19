@@ -1,0 +1,20 @@
+fixed:
+  type: sybaseiq
+prompts:
+  host:
+    hint: "your host name"
+  port:
+    default: 2638
+    type: "int"
+  user:
+    hint: "dev username"
+  password:
+    hint: "dev password"
+    hide_input: true
+  dbname:
+    default: null
+    hint: "default database"
+  threads:
+    hint: "1 or more"
+    type: "int"
+    default: 1
