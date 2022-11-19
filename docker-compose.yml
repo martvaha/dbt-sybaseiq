@@ -1,0 +1,7 @@
+version: '3.5'
+services:
+  api:
+    image: sybaseiq-demo
+    build: .
+    ports:
+      - 2638:2638
